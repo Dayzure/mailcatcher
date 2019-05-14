@@ -1,0 +1,22 @@
+{
+    "name": "mail-catcher",
+    "version": "0.1.0",
+    "description": "Simple SMTP catcher for non-mail enabled Azure AD",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "simplesmtp": "^0.3.35",
+      "mailparser": "^2.7.1",
+      "azure-storage": "2.10.3",
+      "winston": "^3.2.1",
+      "sanitizer": "^0.1.3"
+
+    },
+    "author": "Anton Staykov",
+    "contributors": [
+      "Jens Gerecke"
+    ],
+    "license": "MIT"
+  }
